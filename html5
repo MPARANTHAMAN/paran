@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+
+<html lang="en'>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PARANTHAMAN INFO TECH</title>
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <header>
+   <div class="jumbptron text-center">
+        <div class="wrapper"> 
+            <h1><font color="red">PARANTHAMAN INFO TECH</font></h1> 
+        <nav>
+            <div class="centerDiv">
+            <ul class="MenuU1">   
+                <li><a href="#">Home</a>
+                </li>
+                <li><a href="#">About us</a>
+                <ul class="subMenu">   
+                    <li><a href="#">out team</a></li>
+                    <li><a href="#">site</a></li>
+                    <li><a href="#">mission &amp;vision</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul></li>
+                <li><a href="#">Die Casting</a>
+                <ul class="subMenu">   
+                    <li><a href="#">heat treating </a></li>
+                    <li><a href="#">surface finishing</a></li>
+                    <li><a href="#">solution</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul>
+                </li>
+                <li><a href="#">products</a>
+                  <ul class="subMenu">   
+                    <li><a href="#">automobile application</a></li>
+                    <li><a href="#">industrial application</a></li>
+                    
+                  </ul>
+                </li>
+                <li><a href="contact.html" >Contact us</a>
+                 <ul>   
+                     <li>
+                        
+                     </li>  
+                </ul>
+                </li>
+        
+        </ul>
+         
+          </div>
+        </nav>
+        </div>
+    </header>
+     
+     
+      
+    <div id="hero-image">
+        <div class="wrapper">
+            <article style="background-image: url('first.jpeg');">
+            <div class="overlay">
+             <tr>
+             <td height="151">
+          <table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tbody>
+          <tr class="trans">
+           <td width="35%" align="center" class="trans">
+                
+          
+            <h2><strong>A Minimal, clean</strong><br/>
+        layout for web design.</h2>
+        <a href="#" class="button-1">Get Started</a>
+          </tr>
+          </tbody>
+          </table>
+             </tr>
+             </td>
+        </div>
+    </div>
+    
+    <div id="features">
+    <div class="wrapper">
+<div class="container">
+<div class="row">
+
+        <ul>
+            <li class="feature-1">
+                
+            <div class="col-sm-4">
+                <h4 align="center"> MISSION STATEMENT</h4>
+                <p align="justified">All Tool Manufacturing Inc. is committed to being the pre-eminent manufacturer of special purpose machinery and precision machined components, maintaining high quality, competitive prices, and excellent service and to maintain our position at the leading edge of technology.To become a renowned provider of Pressure Die Casting solutions through dynamically upgrading the Manufacturing Technology and Training of employees.</p>
+            
+            
+        </div>
+                
+            </li>
+            <li class="feature-2">
+             
+            <div class="col-sm-4">
+                <h4 align="center"> OUR VISION</h4>
+                <p align="justified">At paranthaman info tech, we are dedicated to customer satisfaction and to building long-term relationship with them. It is to this end that we have evolved into a one stop source for Pressure Die cast products. This gives us tremen-dous scope to achieve the goals that are of paramount importance to us viz., consistent quality, reduction of lead times and cost-competitiveness. The benefits of which, we are able to pass.</p>
+           
+       </div>
+                
+            </li>
+            <li class="feature-3">
+             
+         <div class="col-sm-4">
+                <h4 align="center">QUALITY</h4>
+                <p align="justified">paranthaman info tech is committed to customer  satisfaction through continual improvement and considers quality its top priority. Towards this end, fully computerized Quality Management System is in place. Stringent quality control and quality checks are carried out by employing the latest POWER INSPECT software, which aid in achieving precision.At paranthaman info tech every employee is committed to and participates in quality .</p>
+
+</div>
+    
+                
+            </li>
+            
+    </ul>
+    </div>
+    </div>
+        
+<div id="primary-content">
+    <div class="wrapper">
+        <article>
+            <h3>Enterprise resource planning</h3>
+            <p>ERP is business process management software that allows an organization to use a system of integrated applications to manage the business and automate many back office functions related to technology, services and human resources.ERP software typically integrates all facets of an operation — including product planning, development, manufacturing, sales and marketing — in a single database, application and user interface.Rule base role rights to penetrate the Organisation hierarchy and policy implementation, as the information is available only to the right person in fine grain manner. User credential is encrypted (bcrypt algorithm) for security reason and our application is tested in OWASP guidelines to avoid any injection. Our ERP solution can deploy in Cloud or on-premises as per client needs. Much compatible with barcode generation for workflow document and Invoice generation (EAN13 or Code 128) formats. </p>
+          
+      <a href="#"><img src="erp1.JPG" alt="erp1" /></a>
+       <a href="#"><img src="logo.jpeg" alt="logo" /></a>
+        </article>
+    </div>
+</div>
+    
+    <div id="secondary-content">
+    <div class="wrapper">
+      <article style="background-image: url('tools.JPG');"> 
+            <div class="overlay">
+                <h4>TOOL MANUFACTURING</h4>
+                <p><small>The Tool Room is equipped with the latest machinery for accurate and swift manufacturing.  </small></p>
+                <a href="#" class="more-link">View more</a>
+            </div>
+      </article>
+      
+        <article style="background-image: url('design1.JPG');">
+            <div class="overlay">
+                <h4>DESIGN AND ENGINEERING</h4>
+                <p><small>paranthaman info tech, Tool Room is a combination of the best of human effort and machine working together.</small></p> 
+                <a href="#" class="more-link">View more</a>
+            </div>
+            
+         </article><div class="clear"></div>
+    </div>
+    </div>
+        <br>
+        <br>
+    
+    <div id="cta">
+    <div class="wrapper">
+     <h3>Our Work</h3>
+        <p>ERP solution is designed for the Small and Medium Business entities for the discrete manufacturing and service (WORK ORDER) Industry. Most comprehensive solution designed for Indian Industry with all in one solution for the best of required modules. Our solution is designed to runs on any environment with customer preferrence and powered to SMB’s industries. M-Sphere flagship product is ongoERP, also doing customer projects on specific requirements start from corporate website to business solutions.</p>
+        <a href="#" class="button-2">Get Started</a>
+    </div>
+    </div>   
+    <br>
+    <br>
+    <footer>
+        
+    <div class="wrapper">
+      
+        <div id="footer-info">
+            
+            <p>Copyright 2018 paranthaman infotech. All rights reserved.</p>
+            <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+         </div> 
+        
+    <div id="footer-links">
+        
+        <tr>
+          <td height="151">
+          <table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tbody>
+          <tr class="trans">
+<td width="30%" align="left" class="trans">
+    <ul>     
+        <lh><h5>SOLUTION<br></h5></lh>
+          
+         
+          <li>Remote Asset Monitoring<br></li>
+          
+          <li>Smart Factories<br></li>
+          
+          <li>Predictive Maintenance<br></li>
+          
+          <li>Facility Management<br></li>
+          
+          <li>Financial Accounting<br></li>
+          
+    </ul>  
+          </td>   
+              
+              
+    <td width="30%" align="left" class="trans">
+    <ul> 
+        <lh><h5>Digital Services<br></h5></lih>
+            
+        
+        <li>Cloud<br></li>
+          
+        <li>IoT<br></li>
+          
+        <li>Micro services<br></li>
+          
+        <li>Develops<br></li>
+          
+        <li>CMM Services<br></li>
+         
+    </ul>
+    </td>
+    <td width="30%" align="left" class="trans">
+    <ul>
+        <lh><h5>COMPANY<br></h5></lh>
+          
+          <li>about us
+          </li>
+          <li>home<br>
+          </li>
+          <li>contact us<br>
+          </li>
+          <li>quality<br>
+          </li>
+          <li>capacities<br>
+          </li>
+    </ul>      
+    </td>
+          </tr>
+          </tbody>
+          </table>
+          </td>
+         </tr>  
+            
+    </div>
+        <div class="clear"></div>
+    </div>
+       
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
