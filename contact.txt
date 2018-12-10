@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>contact us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <header>
+   
+        <div class="wrapper"> 
+            <h1><font color="red">PARANTHAMAN INFO TECH</font></h1> 
+        <nav>
+            <div class="MenuBar">
+            <div class="centerDiv">
+            <ul class="MenuU1">   
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="#">About us</a>
+                <ul class="subMenu">   
+                    <li><a href="#">out team</a></li>
+                    <li><a href="#">site</a></li>
+                    <li><a href="#">mission &amp;vision</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul></li>
+                <li><a href="#">Die Casting</a>
+                <ul class="subMenu">   
+                    <li><a href="#">heat treating </a></li>
+                    <li><a href="#">surface finishing</a></li>
+                    <li><a href="#">solution</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul>
+                </li>
+                <li><a href="#">products</a>
+                  <ul class="subMenu">   
+                    <li><a href="#">automobile application</a></li>
+                    <li><a href="#">industrial application</a></li>
+                    
+                  </ul>
+                </li>
+                <li><a href="contact.html"  onclick="validation() " >Contact us</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="Map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31111.01977546993!2d80.23169211479667!3d12.91559581711854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c90a9105035%3A0xf2e9dd451fb1929f!2sInjambakkam%2C+Chennai%2C+Tamil+Nadu+600115!5e0!3m2!1sen!2sin!4v1544253380064" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="form">
+            
+                <form name="embForm" action="#" onsubmit="return validation()" method="post">  
+            <script type="text/javascript" src="script.js"></script>
+                    <table align="centre">
+            <h3>EMBILLING FORM</h3></table>
+            
+                
+            <p>ENTER THE NAME:</p>
+            <input type="text" name="Name" size="30" placeholder="enter ur name" required="">
+            <br>
+            <label>
+            <p>GENDER:</p>
+               <input type="radio"name="gender"value="male" required="">male
+              <input type="radio"name="gender"value="female">female
+              <input type="radio"name="gender"value="other">other
+              </label>
+              <br>
+            <label> <p>Date of birth:</p>
+                <input type="date" name="DOB" required="">
+            </label><br>
+            <label> <p>ARE YOU IN CHENNAI:</p></label>
+           
+            <input type="checkbox" id="yes" name="yes"  required="">yes
+                
+            
+            
+                <input type="checkbox" id="no" name="no">no
+                
+            
+            <br>
+            <label><p> E-MAIL ID:  </p>
+                <input type="email" pattern="[^@]*@[^@]*" placeholder="enter your email "required="" >
+            </label>
+            <br>
+            
+                
+            <label><p>EDUCATION:   </p></label>
+                <select class="form-control dropdown" id="education" name="education" required="">
+                    <option value=" choose" selected="selected"  disabled="disabled">--select one--</option>
+                    <option value="bachelor's degree" required="">bachelor's degree</option>   
+                    <option value="master degree">master degree</option> 
+                    <option value="doctorate or higher">doctorate or higher</option> 
+                    
+                </select>
+                <br>
+            <label><p>ADDRESS:  </p>
+                    <input type="textarea" size="50" name="Address" requied="" placeholder="enter ur address">
+                </label>
+            <br>
+            <input name="Style.css" type="submit" value="SUBMIT" size="20"/>    
+            <input name="Style.css" type="reset" value="RESET" size="20"/> 
+            </form>
+        
+            </div>
+             
+    
+             
+                
+                
+                
+            </div>
+        </nav>
+        </div>
+    </header>
+    
+    <script type="text/javascript">
+function validation()                                    
+{ 
+    var name = document.forms["RegForm"]["Name"].value;               
+    var email = document.forms["RegForm"]["EMail"].value;    
+    var gender = document.forms["RegForm"]["gender"].value;   
+    var address = document.forms["RegForm"]["Address"].value;  
+   
+    if (name.value === "")                                  
+    { 
+        window.alert("Please enter your name."); 
+         document.getElementById('name');        
+         name.focus(); 
+        return false; 
+    } 
+    
+  
+
+    if (gender.value === "")                                  
+    { 
+        window.alert("Please enter your gender."); 
+document.getElementById('gender');   
+         
+        return false; 
+    } 
+   
+    if (address.value === "")                               
+    { 
+        window.alert("Please enter your address."); 
+document.getElementById('address');           
+
+        return false; 
+    } 
+       
+    if (email.value === "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+       document.getElementById('email');   
+        return false; 
+    } 
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+       document.getElementById('name');    
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        document.getElementById('name');   ; 
+        return false; 
+    } 
+   
+    else
+    {
+        alert('Form Succesfully Submitted');
+window.location.reload();
+    }
+   
+    return true; 
+}
+
+     </script>
+    </body>
+</html>
+
+
